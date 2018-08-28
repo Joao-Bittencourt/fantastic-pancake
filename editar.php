@@ -59,7 +59,7 @@ endif;
 			</div>
 			<div >
 				<label for="TELEFONE">Telefone</label>
-				<input type="text" value="<?php echo $dados['TELEFONE'];?>" name="TELEFONE" id="idade">
+				<input type="text" value="<?php echo $dados['TELEFONE'];?>" name="TELEFONE" id="TELEFONE">
 				
 			</div>
 
