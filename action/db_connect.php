@@ -3,9 +3,9 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$db_name = "crud";
+$bd "crud";
 
-$connect = mysqli_connect($servername, $username, $password, $db_name);
+$connect = mysqli_connect($servername, $username, $password, $bd);
 mysqli_set_charset($connect, "utf8");
 
 if(mysqli_connect_error()):
