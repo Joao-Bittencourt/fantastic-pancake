@@ -56,7 +56,7 @@ include_once 'action/db_connect.php';
 					<td><a href="action/delete.php?id=<?php echo $dados['ID']; ?>	" class="btn-floating red modal-trigger"><i class="material-icons">delete</i></a></td>
 
 						
-		<!-- https://github.com/guibittenc/fantastic-pancake.git -->
+		
 
 				</tr>
 			   <?php 
