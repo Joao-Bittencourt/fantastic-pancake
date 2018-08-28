@@ -15,7 +15,7 @@ if(isset($_POST['btn-editar'])){
 
 	$id = mysqli_escape_string($connect, $_POST['id']);
 
-	$sql = "UPDATE clientes SET NOME = '$nome', CEP = '$cep', CIDADE = '$cidade', UF = '$uf',BAIRRO ='$bairro',ENDERECO='$endereco',TELEFONE   ='$numero' WHERE id = '$id'";
+	$sql = "UPDATE clientes SET NOME = '$nome', CEP = '$cep', CIDADE = '$cidade', UF = '$uf',BAIRRO ='$bairro',ENDERECO='$endereco',TELEFONE   ='$numero' WHERE ID = '$id'";
 
 	if(mysqli_query($connect, $sql)):
 		$_SESSION['mensagem'] = "Atualizado com sucesso!";
