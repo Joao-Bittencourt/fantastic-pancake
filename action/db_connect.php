@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$bd "crud";
+$bd ="crud";
 
 $connect = mysqli_connect($servername, $username, $password, $bd);
 mysqli_set_charset($connect, "utf8");
