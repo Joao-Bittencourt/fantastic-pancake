@@ -2,7 +2,7 @@
 // Conexão com banco de dados
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $bd ="crud";
 
 $connect = mysqli_connect($servername, $username, $password, $bd);
